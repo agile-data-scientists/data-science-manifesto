@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 git remote add upstream git@github.com:laravel/laravel.git
 
 sudo npm install gulp npm-check-updates -g

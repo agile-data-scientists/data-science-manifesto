@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd .. && git clone git@github.com:litchi-io/litchi-sass.git litchi-sass-temp
+cp litchi-sass-temp/* litchi-laravel
+rm -r litchi-sass-temp
