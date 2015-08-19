@@ -1,1 +1,10 @@
 git remote add upstream git@github.com:laravel/laravel.git
+
+sudo npm install gulp npm-check-updates -g
+
+sudo ncu -u
+sudo npm install
+
+bower install
+
+#gulp sass js
