@@ -15,15 +15,15 @@ Laravel is accessible, yet powerful, providing powerful tools needed for large, 
 	git remote add production git@heroku.com:your_project.git
 	heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php --app your_project
 
-## Official Documentation
+### Official Documentation
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
+### Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+### Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
