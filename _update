@@ -13,6 +13,4 @@ cp -v litchi-sass-temp/package.json litchi-sass-temp/bower.json litchi-sass-temp
 sudo rm -r litchi-sass-temp && cd litchi-laravel
 
 printf "\n\nDependencies successfully copied over to /public\n\n"
-
-git fetch upstream
-git merge upstream/master
+printf "\n\nAfter commiting, you may wish to do sync your branch with upstream => git fetch upstream && git merge upstream/master\n\n"
