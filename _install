@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
+
 git remote add upstream git@github.com:laravel/laravel.git
 
-sudo npm install gulp npm-check-updates -g
+composer install
+cp .env.example .env
+php artisan key:generate
 
-sudo ncu -u
-sudo npm install
-
-bower install
-
-#gulp sass js
+cd public && bash _install && cd ..

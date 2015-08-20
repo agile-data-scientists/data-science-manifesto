@@ -1,0 +1,29 @@
+{
+  "name": "litchi-sass",
+  "version": "0.0.2",
+  "homepage": "https://github.com/litchi-io/litchi-sass",
+  "authors": [
+    "Slavomir Vojacek <slavomirvojacek@gmail.com>"
+  ],
+  "description": "A light-weight Sass framework.",
+  "main": "index.html",
+  "keywords": [
+    "litchi",
+    "sass",
+    "litchi-sass",
+    "litchi.io"
+  ],
+  "license": "GNU",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.9.3",
+    "rxjs": "~2.5.2",
+    "jquery": "~2.1.4"
+  }
+}
