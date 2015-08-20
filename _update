@@ -14,4 +14,5 @@ sudo rm -r litchi-sass-temp && cd litchi-laravel
 
 printf "\n\nDependencies successfully copied over to /public\n\n"
 
-# cd public && bash _install && cd ..
+git fetch upstream
+git merge upstream/master
