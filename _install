@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-git remote add upstream git@github.com:laravel/laravel.git
+# litchi development only
+# git remote add upstream git@github.com:laravel/laravel.git
+
+git remote add upstream git@github.com:litchi-io/litchi-laravel.git
 
 composer install
 cp .env.example .env
