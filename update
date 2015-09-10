@@ -7,6 +7,7 @@ cp -rv litchi-sass-temp/fonts litchi-laravel/public
 cp -rv litchi-sass-temp/images litchi-laravel/public
 cp -rv litchi-sass-temp/app litchi-laravel/public
 
+cp -v litchi-sass-temp/install litchi-laravel/public
 cp -v litchi-sass-temp/favicon.ico litchi-sass-temp/screen-icon.png litchi-sass-temp/gulpfile.js litchi-sass-temp/_install litchi-laravel/public
 cp -v litchi-sass-temp/package.json litchi-sass-temp/bower.json litchi-sass-temp/tsd.json litchi-sass-temp/gulpfile.js litchi-laravel/public
 
