@@ -1,0 +1,15 @@
+<label for="searchTerm">Search Term:</label>
+
+<input id="searchTerm" type="text" ng-model="SearchCtr.term" ng-keydown="SearchCtr.trigger($event)"/>
+
+<ul>
+    <li ng-repeat="result in SearchCtr.searchResults.data">
+        <strong ng-show="$index == SearchCtr.searchResults.selected">active</strong>
+        <em>id:</em> {{result.id}}
+        <em>name:</em> {{result.name}}
+        <em>description:</em> {{result.description}}
+    </li>
+</ul>
+
+Autocomplete:
+<autocomplete></autocomplete>

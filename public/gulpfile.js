@@ -17,8 +17,9 @@ gulp.task('default', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('js/**/*.ts', ['compile-tsc', 'compile-tsc-tests']);
-    gulp.watch('js/test/*.js', ['test']);
+    gulp.watch('css/**/*.sass', ['sass']);
+    gulp.watch('app/**/*.ts', ['compile-tsc', 'compile-tsc-tests']);
+    gulp.watch('app/test/*.js', ['test']);
 });
 
 gulp.task('static-server', function () {
@@ -31,50 +32,54 @@ gulp.task('static-server', function () {
     });
 
     server.listen(port);
-    console.log('Express static server running for litchi-sass on port ' + port);
-});
-
-gulp.task('compile-tsc', function () {
-    tsc('js', 'app');
-});
-
-gulp.task('compile-tsc-tests', function () {
-    tsc('js', 'tests');
+    console.log('Express static server running for litchi-ng-sass on port ' + port);
 });
 
 gulp.task('sass', function () {
     compileSass('litchi', 'css/source')
 });
 
-gulp.task('test', function (done) {
-    var server = new karma.Server({
-        configFile: process.cwd() + '/js/test/karma.conf.js'
-    }, done);
+gulp.task('dist-js', function () {
+    gulp.src([
+        'app/dist/vendor.js',
+        'app/dist/app.js'
+    ])
+        .pipe(plumber({errorHandler: onError}))
+        .pipe(concat('litchi.js'))
+        .pipe(gulp.dest('app/dist'))
+        .pipe(notify('litchi.js compiled'));
+});
 
-    server.start();
+gulp.task('compile-tsc', function () {
+    tsc('app', 'app');
+});
+
+gulp.task('compile-tsc-tests', function () {
+    tsc('app', 'tests');
 });
 
 gulp.task('concat-vendor', function () {
     gulp.src([
         'bower_components/jquery/dist/jquery.min.js',
+        'bower_components/angular/angular.min.js',
+        'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+        'bower_components/angular-loading-bar/build/loading-bar.min.js',
         'bower_components/lodash/lodash.min.js',
-        'bower_components/rxjs/dist/rx.all.min.js'
+        'bower_components/rxjs/dist/rx.min.js',
+        'bower_components/rxjs/dist/rx.time.min.js'
     ])
         .pipe(plumber({errorHandler: onError}))
         .pipe(concat('vendor.js'))
-        .pipe(gulp.dest('js/dist'))
+        .pipe(gulp.dest('app/dist'))
         .pipe(notify('Vendor compiled'));
 });
 
-gulp.task('concat-dist', function () {
-    gulp.src([
-        'js/dist/vendor.js',
-        'js/dist/app.js'
-    ])
-        .pipe(plumber({errorHandler: onError}))
-        .pipe(concat('litchi.js'))
-        .pipe(gulp.dest('js/dist'))
-        .pipe(notify('litchi.js compiled'));
+gulp.task('test', function (done) {
+    var server = new karma.Server({
+        configFile: process.cwd() + '/app/test/karma.conf.js'
+    }, done);
+
+    server.start();
 });
 
 function tsc(path, type) {

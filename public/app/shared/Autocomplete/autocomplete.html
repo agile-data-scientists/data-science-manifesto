@@ -1,0 +1,6 @@
+<ul>
+    <li ng-repeat="tag in SearchCtr.autocompleteData">
+        {{tag.name}} &bull;
+        <small ng-click="SearchCtr.updateAutocomplete('remove', tag.id)">&times; delete</small>
+    </li>
+</ul>
