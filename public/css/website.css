@@ -929,7 +929,7 @@ textarea:invalid {
 a,
 .link {
   cursor: pointer;
-  color: #FF6961;
+  color: #263238;
   text-decoration: underline; }
   a:hover, a:focus,
   .link:hover,
