@@ -8,7 +8,7 @@
     <meta property="og:url" content="{{ $ogMeta['link'] or $url }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ $ogMeta['title'] or 'Manifesto for Agile Data Science (Beta)' }}">
-    <meta property="og:image" content="{{ $ogMeta['image'] or  $url . 'images/social/og-image.png' }}">
+    <meta property="og:image" content="{{ $ogMeta['image'] or  $url . 'images/social/og-image.jpg' }}">
     <meta property="og:description"
           content="{{ $ogMeta['desc'] or 'Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.'}}">
 
@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="/css/website.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon-precomposed" href="/images/social/bookmark.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/social/bookmark.jpg">
 
     <script type="text/javascript">
         WebFontConfig = {
