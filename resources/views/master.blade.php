@@ -2,18 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="uxoGRyCIKZAqXoimSbwGR7hmpL-tBV0aA6Pu-ypnIMA"/>
     <meta name="description"
-          content="JAM is a 1-day event designed to reveal the stories behind the products you know and love.">
+          content="Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.">
 
     <meta property="og:url" content="{{ $ogMeta['link'] or $url }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ $ogMeta['title'] or 'JAM London 2015' }}">
+    <meta property="og:title" content="{{ $ogMeta['title'] or 'Manifesto for Agile Data Science (Beta)' }}">
     <meta property="og:image" content="{{ $ogMeta['image'] or  $url . 'images/social/og-image.png' }}">
     <meta property="og:description"
-          content="{{ $ogMeta['desc'] or 'JAM is a 1-day event designed to reveal the stories behind the products you know and love.'}}">
+          content="{{ $ogMeta['desc'] or 'Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.'}}">
 
-    <title>JAM London - {{$title}}</title>
+    <title>{{$title}} / Manifesto for Agile Data Science (Beta)</title>
 
     <link rel="stylesheet" href="/css/website.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -80,6 +79,14 @@
     document.addEventListener("DOMContentLoaded", function () {
         var md = document.getElementById('parseMd');
         md.innerHTML = markdown.toHTML(md.innerHTML);
+
+        var links = document.links;
+
+        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+            if (links[i].hostname != window.location.hostname) {
+                links[i].target = '_blank';
+            }
+        }
     });
 </script>
 </body>

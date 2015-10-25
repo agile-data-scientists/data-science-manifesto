@@ -1,4 +1,4 @@
-Here we clarify the application of both the Scientific and [Agile](http://www.agilemanifesto.org/){:target="_blank"} Methodologies to Data Science.  
+Here we clarify the application of both the Scientific and [Agile](http://www.agilemanifesto.org/) Methodologies to Data Science.  
 *Agile Data Science* incrementally delivers clean, transparent and composable data-driven products by valuing:
 
  - **Minimal Viable Products** over prototypes
