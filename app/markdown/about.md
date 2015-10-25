@@ -1,10 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
-exclude_from_nav: false
----
-
 ###Authors
 
 Victor Paraschiv [@vicpara](https://github.com/vicpara)

@@ -1,10 +1,3 @@
----
-layout: page
-title: Principles
-permalink: /principles/
-exclude_from_nav: false
----
-
 *Prior* to building a model, construct an evaluation framework with end-to-end business focused acceptance criteria.
 
 All validation of data, hypotheses and performance of models must be tracked, reviewed and automated.

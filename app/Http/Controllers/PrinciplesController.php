@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use VTalbot\Markdown\Facades\Markdown;
+use Storage;
 
 class PrinciplesController extends Controller
 {
@@ -12,7 +12,8 @@ class PrinciplesController extends Controller
         return view('principles', ['title' => 'Principles', 'bodyClass' => 'principles', 'url' => parent::getMetaUrl(), 'contents' => $this->md()]);
     }
 
-    private function md() {
-        return Markdown::make('principles');
+    private function md()
+    {
+        return Storage::disk('local')->get('markdown/principles.md');
     }
 }
