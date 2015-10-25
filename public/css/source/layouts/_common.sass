@@ -1,3 +1,8 @@
+$footer-height: $nav-height - $base-unit-layout
+
+body
+  background: $color-grey-50
+
 .container-full-screen, .container-narrow
   +clearfix
   @extend .block-center
@@ -6,10 +11,46 @@
 
 .container-narrow
   width: 80%
-  max-width: rem(700px)
+  max-width: rem(600px)
+  padding: $quadruple-unit-layout 0
+
+  +respond-to-size($screen-md)
+    padding: $double-unit-layout 0
+
+  p, ul
+    line-height: 2
+    word-break: break-word
+
+.container-holder
+  position: absolute
+  width: 100%
+  top: $nav-height
+  bottom: $footer-height
+  overflow: auto
+
+  +respond-to-size($screen-md)
+    top: $nav-height-screen-md * 2
 
 footer
+  +clearfix
+
   color: $color-grey-300
   font-size: rem(12px)
   text-align: center
-  padding: $base-unit-layout
+  padding: 0 $base-unit-layout
+  position: fixed
+  bottom: 0
+  left: 0
+  width: 100%
+  background: white
+  height: $footer-height
+
+  small
+    //color: $color-black
+    float: left
+    display: block
+    height: $footer-height
+    line-height: $footer-height
+
+    &:last-of-type
+      float: right

@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController@renderView');
+
+Route::get('/about', 'AboutController@renderView');
+
+Route::get('/principles', 'PrinciplesController@renderView');

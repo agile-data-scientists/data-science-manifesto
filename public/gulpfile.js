@@ -36,7 +36,7 @@ gulp.task('static-server', function () {
 });
 
 gulp.task('sass', function () {
-    compileSass('litchi', 'css/source')
+    compileSass('website', 'css/source')
 });
 
 gulp.task('dist-js', function () {
