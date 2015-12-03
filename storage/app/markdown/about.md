@@ -1,11 +1,3 @@
-###Authors
-
-Victor Paraschiv [@vicpara](https://github.com/vicpara)
-
-Sam Savage [@samthebest](https://github.com/samthebest)
-
-Gianmario Spacagna [@gm-spacagna](https://github.com/gm-spacagna)
-
 ###Contributors
 
 If you would like to collaborate, please join our mailing list:
