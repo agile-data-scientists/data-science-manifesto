@@ -8,4 +8,4 @@ Here we clarify the application of both the Scientific and [Agile](http://www.ag
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-[Principles](http://www.datasciencemanifesto.org/principles)
+[Principles of Agile Data Science](http://www.datasciencemanifesto.org/principles)
