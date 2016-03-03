@@ -8,3 +8,6 @@ Here we clarify the application of both the Scientific and [Agile](http://www.ag
  - **Scrutinized repeatable hypothesis validation** over conventions and ad verecundiams
 
 That is, while there is value in the items on the right, we value the items on the left more.
+
+[//]: # (Authors:)
+[//]: # (Gianmario Spacagna)
