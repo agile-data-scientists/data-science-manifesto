@@ -9,3 +9,6 @@ A product needs a pool of measures to evaluate its quality. A single number cann
 Even research can be broken down into clearly defined tasks. The smallest of iterations should be preferred in acquiring, integrating and correcting knowledge.
 
 Don’t neglect assumptions in models. Make them explicit then aim to have them either verified or removed.
+
+[//]: # (Authors:)
+[//]: # (Gianmario Spacagna)
