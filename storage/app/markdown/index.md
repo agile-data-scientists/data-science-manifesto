@@ -11,4 +11,5 @@ That is, while there is value in the items on the right, we value the items on t
 [Principles of Agile Data Science](http://www.datasciencemanifesto.org/principles)
 
 [//]: # (Authors:)
+[//]: # (Sam Savage)
 [//]: # (Gianmario Spacagna)
