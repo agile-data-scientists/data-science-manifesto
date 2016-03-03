@@ -13,3 +13,4 @@ That is, while there is value in the items on the right, we value the items on t
 [//]: # (Authors:)
 [//]: # (Sam Savage)
 [//]: # (Gianmario Spacagna)
+[//]: # (Victor Paraschiv)
