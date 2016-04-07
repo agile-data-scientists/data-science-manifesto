@@ -1,5 +1,5 @@
-Latest technology advancements made data processing accessible to everyone, cheaply and quickly.
-We believe better value can be produced at the intersection of engineering practices and correct application of the scientific method.
+Latest technology advancements made data processing accessible to everyone, cheaply and quickly.\\
+We believe better value can be produced at the intersection of engineering practices and correct application of the scientific method.\\
 This manifesto proposes a principled methodology for unifying science and technology by valuing:
 
  - **Minimal Viable Products** over prototypes
