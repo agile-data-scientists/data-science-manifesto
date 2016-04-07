@@ -10,7 +10,7 @@ This manifesto proposes a principled methodology for unifying science and techno
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-### Principles of Agile Data Science
+### Principles
 
 Agile Data science is about solving problems, not models or algorithms.
 
