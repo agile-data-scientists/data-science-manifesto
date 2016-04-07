@@ -12,7 +12,7 @@
     <meta property="og:description"
           content="{{ $ogMeta['desc'] or 'Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.'}}">
 
-    <title>{{$title}} / The Data Science Manifesto (Beta)</title>
+    <title>The Data Science Manifesto (Beta)</title>
 
     <link rel="stylesheet" href="/css/website.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
