@@ -7,12 +7,12 @@
 
     <meta property="og:url" content="{{ $ogMeta['link'] or $url }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ $ogMeta['title'] or 'Manifesto for Agile Data Science (Beta)' }}">
+    <meta property="og:title" content="{{ $ogMeta['title'] or 'The Data Science Manifesto (Beta)' }}">
     <meta property="og:image" content="{{ $ogMeta['image'] or  $url . 'images/social/og-image.jpg' }}">
     <meta property="og:description"
           content="{{ $ogMeta['desc'] or 'Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.'}}">
 
-    <title>{{$title}} / Manifesto for Agile Data Science (Beta)</title>
+    <title>{{$title}} / The Data Science Manifesto (Beta)</title>
 
     <link rel="stylesheet" href="/css/website.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
