@@ -1,5 +1,5 @@
 Latest technology advancements made data processing accessible to everyone, cheaply and quickly.  
-We believe better value can be produced at the intersection of engineering practices and correct application of the scientific method.  
+We believe better value can be produced at the intersection of engineering practices and the correct application of the scientific method.  
 This manifesto proposes a principled methodology for unifying science and technology by valuing:
 
  - **Minimal Viable Products** over prototypes
@@ -10,7 +10,7 @@ This manifesto proposes a principled methodology for unifying science and techno
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-### Principles
+#### Principles
 
 Agile Data science is about solving problems, not models or algorithms.
 
