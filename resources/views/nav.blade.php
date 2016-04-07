@@ -1,5 +1,5 @@
 <nav>
-    <h1>Manifesto for Agile Data Science (Beta)</h1>
+    <h1>The Data Science Manifesto (Beta)</h1>
 
     <ul>
         <li{!! $bodyClass == 'welcome' ? ' class="active"' : '' !!}><a href="/">Home</a></li>
