@@ -1,4 +1,4 @@
-Latest technology advancements have made data processing accessible, cheap and quick for everyone. We believe combining engineering practices with the scientific method will extract the most utility from these advancements. So this manifesto proposes a principled methodology for unifying science and technology by valuing:
+Latest technology advancements have made data processing accessible, cheap and fast for everyone. We believe combining engineering practices with the scientific method will extract the most utility from these advancements. So this manifesto proposes a principled methodology for unifying science and technology by valuing:
 
  - **Minimal Viable Products** over prototypes
  - **APIs** over databases
