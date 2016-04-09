@@ -1,4 +1,4 @@
-Latest technology advancements made data processing accessible to everyone, cheaply and quickly.  
+Latest technology advancements have made data processing accessible to everyone, cheaply and quickly.  
 We believe better value can be produced at the intersection of engineering practices and the correct application of the scientific method.  
 This manifesto proposes a principled methodology for unifying science and technology by valuing:
 
