@@ -1,0 +1,1 @@
+Here are a few links to articles we mostly agree with.  They should bring clarity and concrete examples to the values and principles the manifesto promotes.  This list is likely to change and we welcome submissions.
