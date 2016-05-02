@@ -15,4 +15,6 @@ Route::get('/', 'WelcomeController@renderView');
 
 Route::get('/about', 'AboutController@renderView');
 
+Route::get('/links', 'LinksController@renderView');
+
 Route::get('/principles', 'PrinciplesController@renderView');
