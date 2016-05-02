@@ -2,6 +2,14 @@
 
 See https://github.com/agile-data-scientists/data-science-manifesto/tree/master/storage/app/markdown
 
+## To Edit Some Other stuff
+
+```
+resources/views/master.blade.php
+
+resources/views/nav.blade.php
+```
+
 ## litchi.io's fork of Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
