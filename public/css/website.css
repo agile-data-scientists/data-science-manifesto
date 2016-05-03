@@ -6,7 +6,6 @@
 
 .pre-load * {
   -webkit-transition: none;
-  -o-transition: none;
   transition: none; }
 
 html, body, div, span, object, iframe, hr,
@@ -82,7 +81,6 @@ em, i {
   font-size: 1rem; }
   .alert .close {
     -webkit-transition: color 0.25s;
-    -o-transition: color 0.25s;
     transition: color 0.25s;
     color: inherit;
     top: 1rem;
@@ -130,7 +128,6 @@ textarea,
   -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   -webkit-appearance: none;
   border: 1px solid #CFD8DC;
@@ -226,7 +223,6 @@ textarea:invalid {
     -webkit-border-radius: 3px;
     border-radius: 3px;
     -webkit-transition: all 0.25s;
-    -o-transition: all 0.25s;
     transition: all 0.25s;
     border: 1px solid #CFD8DC;
     width: 0.875rem;
@@ -238,7 +234,6 @@ textarea:invalid {
       -webkit-border-radius: 2px;
       border-radius: 2px;
       -webkit-transition: background 0.25s;
-      -o-transition: background 0.25s;
       transition: background 0.25s;
       opacity: 0;
       content: "";
@@ -321,7 +316,6 @@ textarea:invalid {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   background: white;
   text-decoration: none;
@@ -1082,7 +1076,6 @@ nav {
     -webkit-border-radius: 0.25rem;
     border-radius: 0.25rem;
     -webkit-transition: width 0.25s;
-    -o-transition: width 0.25s;
     transition: width 0.25s;
     min-width: 0.25rem;
     background: #263238;
@@ -1121,7 +1114,6 @@ table {
   font-size: 0.875rem; }
   .tabs > li {
     -webkit-transition: background 0.25s;
-    -o-transition: background 0.25s;
     transition: background 0.25s;
     cursor: pointer;
     display: table-cell;
@@ -1174,16 +1166,16 @@ h4, h5, h6 {
   font-weight: 500; }
 
 h1 {
-  font-size: 2.375rem; }
-
-h2 {
-  font-size: 2.125rem; }
-
-h3 {
   font-size: 1.875rem; }
 
-h4 {
+h2 {
+  font-size: 1.75rem; }
+
+h3 {
   font-size: 1.625rem; }
+
+h4 {
+  font-size: 1.5rem; }
 
 h5 {
   font-size: 1.375rem; }
@@ -1531,6 +1523,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
+    -ms-grid-row-align: center;
     align-items: center; }
   .flex.center-horizontally, .checkbox-holder .center-horizontally.checkbox, .checkbox-holder .center-horizontally.radio-button, .radio-button-holder .center-horizontally.checkbox, .radio-button-holder .center-horizontally.radio-button {
     -webkit-box-pack: center;
@@ -1837,6 +1830,9 @@ body {
   @media all and (max-width: 1024px) {
     .container-holder {
       top: 8rem; } }
+  .container-holder #parseMd p, .container-holder #parseMd ul {
+    line-height: 2;
+    font-size: 0.9375rem; }
 
 footer {
   zoom: 1;
@@ -2054,7 +2050,6 @@ footer {
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
   transform: translate(0, 0); }
 
 /* makes the font 33% larger relative to the icon container */
@@ -2115,12 +2110,10 @@ footer {
 
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
-  -o-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear; }
 
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
-  -o-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8); }
 
 @-webkit-keyframes fa-spin {
@@ -2131,59 +2124,42 @@ footer {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
-@-o-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(359deg);
-    -o-transform: rotate(359deg);
-    transform: rotate(359deg); } }
-
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(359deg);
-    -o-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 .fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 .fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
   transform: rotate(270deg); }
 
 .fa-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
 .fa-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
-  -o-transform: scale(1, -1);
   transform: scale(1, -1); }
 
 :root .fa-rotate-90,
