@@ -12,7 +12,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 Aim to completely remove manual intervention in numerical processing.
 
-Agile Data science is about solving problems, not models or algorithms.
+Data science is about solving problems, not models or algorithms.
 
 All validation of data, hypotheses and performance should be tracked, reviewed and automated.
 
