@@ -3,16 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-          content="Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.">
+          content="This manifesto proposes a principled methodology for unifying science and technology.">
 
     <meta property="og:url" content="{{ $ogMeta['link'] or $url }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ $ogMeta['title'] or 'The Agile Data Science Manifesto' }}">
+    <meta property="og:title" content="{{ $ogMeta['title'] or 'The Professional Data Science Manifesto' }}">
     <meta property="og:image" content="{{ $ogMeta['image'] or  $url . 'images/social/og-image.jpg' }}">
     <meta property="og:description"
-          content="{{ $ogMeta['desc'] or 'Here we clarify the application of both the Scientific and Agile Methodologies to Data Science.'}}">
+          content="{{ $ogMeta['desc'] or 'This manifesto proposes a principled methodology for unifying science and technology.'}}">
 
-    <title>The Agile Data Science Manifesto</title>
+    <title>The Professional Data Science Manifesto</title>
 
     <link rel="stylesheet" href="/css/website.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
