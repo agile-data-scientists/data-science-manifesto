@@ -12,6 +12,6 @@ Here are a few articles or videos we mostly agree with.  They should bring clari
 
 [Functional Programming can be done in any language and is great](http://gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php)
 
-[From physics to data science](https://www.slideshare.net/martinapugliese1800/fromphysicstodatascience)
+[From Physics to Data Science](https://www.slideshare.net/martinapugliese1800/fromphysicstodatascience)
 
 [Reproducible Data Science with Docker Containers - Ben Hamner](https://www.youtube.com/watch?v=cYavmPa3aFQ) 
