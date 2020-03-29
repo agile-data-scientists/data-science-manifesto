@@ -1,4 +1,8 @@
-###Contributors
+---
+layout: page
+title: Contributors
+subtitle: 
+---
 
 If you would like to collaborate, please join our mailing list:
 
